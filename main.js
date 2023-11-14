@@ -6,7 +6,7 @@ window.addEventListener('load', () => {
 	form.addEventListener('submit', (e) => {
 		e.preventDefault();
 
-		const task = input.value;
+		const task = input.value;//task
 
 		const task_el = document.createElement('div');
 		task_el.classList.add('task');
